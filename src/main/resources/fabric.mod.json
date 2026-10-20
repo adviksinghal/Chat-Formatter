@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "chat-formatter",
+	"version": "${version}",
+	"name": "Chat Formatter",
+	"description": "Turns chat into rich text, formats markdown, and makes URLs clickable!",
+	"authors": [
+		"ProHacker888"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/c-f",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/chat-formatter/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.cf.client.ChatFormatterClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
